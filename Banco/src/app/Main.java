@@ -10,7 +10,7 @@ import util.*;
 /**
  * @author FacundoBenitez FranciscoGonzales
  */
-public class main {
+public class Main {
 
 
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class main {
 		Cliente cliente2=new Cliente("David", "Gonzales", 21);
 		Cuenta cuentaCliente1=new Cuenta("ESBN022-124", cliente1, 150);
 		Cuenta cuentaCliente2=new Cuenta("ESBN022-125", cliente2, 150);
-		util.Operaciones.transferencia(cuentaCliente1,cuentaCliente2,100);
+		Operaciones.transferencia(cuentaCliente1,cuentaCliente2,100);
 
 	}
 
