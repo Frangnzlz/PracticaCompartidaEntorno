@@ -6,7 +6,7 @@ package models;
  *    
  **/
 public class Cliente {
-	private String nombre,apellidoString;
+	private String nombre,apellido;
 	int edad;
 	
 	/**
@@ -14,10 +14,10 @@ public class Cliente {
 	 * @param apellido
 	 * @param edad
 	 */
-	public Cliente(String nombre, String apellidoString, int edad) {
+	public Cliente(String nombre, String apellido, int edad) {
 		
 		this.nombre = nombre;
-		this.apellidoString = apellidoString;
+		this.apellido = apellido;
 		this.edad = edad;
 	}
 
@@ -39,14 +39,14 @@ public class Cliente {
 	 * @return el apellido
 	 */
 	public String getApellidoString() {
-		return apellidoString;
+		return apellido;
 	}
 
 	/**
 	 * @param apellido
 	 */
-	public void setApellidoString(String apellidoString) {
-		this.apellidoString = apellidoString;
+	public void setApellidoString(String apellido) {
+		this.apellido = apellido;
 	}
 
 	/**
