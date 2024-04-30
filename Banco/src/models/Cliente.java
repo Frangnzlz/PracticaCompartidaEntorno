@@ -11,7 +11,7 @@ public class Cliente {
 	
 	/**
 	 * @param nombre
-	 * @param apellidoString
+	 * @param apellido
 	 * @param edad
 	 */
 	public Cliente(String nombre, String apellidoString, int edad) {
@@ -50,7 +50,7 @@ public class Cliente {
 	}
 
 	/**
-	 * @return la edadg
+	 * @return la edad
 	 */
 	public int getEdad() {
 		return edad;
