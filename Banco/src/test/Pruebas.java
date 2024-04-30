@@ -11,14 +11,11 @@ import org.junit.jupiter.api.Test;
 
 class Pruebas {
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+
 	
 	
 	@Test
-	void transferencia(Cuenta cuentaOrigen, Cuenta cuentaDestino, double cantidad) {
+	void transferencia() {
 		double esperada=50;
 		Cuenta cuenta1=new Cuenta(null, null, 150);
 		Cuenta cuenta2=new Cuenta(null, null, 150);
