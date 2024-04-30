@@ -42,4 +42,13 @@ public class Cuenta {
 	}
 	
 	
+	/**
+	 * 
+	 * @return
+	 */
+	public String getEstado() {
+		return estado;
+	}
+	
+	
 }
