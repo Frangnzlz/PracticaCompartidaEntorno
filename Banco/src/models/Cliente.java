@@ -50,7 +50,7 @@ public class Cliente {
 	}
 
 	/**
-	 * @return la edad
+	 * @return la edadg
 	 */
 	public int getEdad() {
 		return edad;
